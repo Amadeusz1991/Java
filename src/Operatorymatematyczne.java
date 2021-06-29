@@ -11,11 +11,11 @@ public class Operatorymatematyczne {
         float division = thirdNumber/secondNumber;
         int mod = secondNumber%firstNumber; // ile razy 6 miesci się w 4
 
-        /*System.out.println("Dodawanie" + addition);
+        System.out.println("Dodawanie" + addition);
         System.out.println("Odejmowanie" + subsctration);
         System.out.println("Mnożenie" + multiplication);
         System.out.println("Dzielenie" + division);
-        System.out.println("Modulo" + mod);*/
+        System.out.println("Modulo" + mod);
 
         //Nadpisywanie zmiennej, która pokazuje wynik działania
         firstNumber+=secondNumber; // firstNumber = firstNumber + secondNumber
