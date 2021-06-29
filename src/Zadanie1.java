@@ -10,48 +10,20 @@ public class Zadanie1 { // Operacja dwóch wartości z wykorzystaniem operatoró
         Scanner scanner2 = new Scanner(System.in);
         System.out.print("Podaj drugą liczbę: ");
         int secondNumber = scanner2.nextInt();
-        int result = firstNumber + secondNumber;
-        System.out.println("Suma tych dwóch liczb to: " + result);
 
-        Scanner scanner3 = new Scanner(System.in);
-        System.out.println("ODEJMOWANIE");
-        System.out.print("Podaj pierwszą liczbę: ");
-        int firstNumber3 = scanner3.nextInt();
-        Scanner scanner4 = new Scanner(System.in);
-        System.out.print("Podaj drugą liczbę: ");
-        int secondNumber4 = scanner4.nextInt();
-        int result2 = firstNumber3 - secondNumber4;
-        System.out.println("róznica tych dwóch liczb to: " + result2);
+        int addition = firstNumber + secondNumber;
+        int substraction = firstNumber - secondNumber;
+        int multiplication = firstNumber * secondNumber;
+        int division = firstNumber / secondNumber;
+        int modulo = secondNumber % firstNumber;
 
-        Scanner scanner5 = new Scanner(System.in);
-        System.out.println("MNOŻENIE");
-        System.out.print("Podaj pierwszą liczbę: ");
-        int firstNumber5 = scanner5.nextInt();
-        Scanner scanner6 = new Scanner(System.in);
-        System.out.print("Podaj drugą liczbę: ");
-        int secondNumber6 = scanner6.nextInt();
-        int result3 = firstNumber5 * secondNumber6;
-        System.out.println("Iloczyn tych dwóch liczb to: " + result3);
+        System.out.println("Wynik dodawania: " + addition);
+        System.out.println("Wynik odejmowania: " + substraction);
+        System.out.println("Wynik mnożenia: " + multiplication);
+        System.out.println("Wynik dzielenia: " + division);
+        System.out.println("Wunik modulo: " + modulo);
 
-        Scanner scanner7 = new Scanner(System.in);
-        System.out.println("DZIELENIE");
-        System.out.print("Podaj pierwszą liczbę: ");
-        int firstNumber7 = scanner7.nextInt();
-        Scanner scanner8 = new Scanner(System.in);
-        System.out.print("Podaj drugą liczbę: ");
-        int secondNumber8 = scanner8.nextInt();
-        int result4 = firstNumber7 / secondNumber8;
-        System.out.println("Iloraz tych dwóch liczb to: " + result4);
 
-        Scanner scanner9 = new Scanner(System.in);
-        System.out.println("MODULO");
-        System.out.print("Podaj pierwszą liczbę: ");
-        int firstNumber9 = scanner9.nextInt();
-        Scanner scanner10 = new Scanner(System.in);
-        System.out.print("Podaj drugą liczbę: ");
-        int secondNumber10 = scanner10.nextInt();
-        int result5 = firstNumber9 % secondNumber10;
-        System.out.println("Modulo tych dwóch liczb to: " + result5);
 
     }
 }
