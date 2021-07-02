@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StudentChecker {
     public static void main(String[] args) {
 
@@ -33,6 +35,7 @@ public class StudentChecker {
             students[i].podanNrid();
             students[i].zalogujSie();
         }
+
 
     }
 }
