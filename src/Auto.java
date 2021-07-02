@@ -8,6 +8,14 @@ public class Auto {
     public Integer przebieg;
     public String kolor;
 
+    public Auto(String marka, String model, int rok, int przebieg, String kolor ){
+        this.marka = marka;
+        this.model = model;
+        this.rok = rok;
+        this.przebieg = przebieg;
+        this.kolor = kolor;
+    }
+
     public void jedz(){
         System.out.println("Jedz!");
     }
