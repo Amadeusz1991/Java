@@ -5,6 +5,7 @@ public class Student {
     public String nickname;
     public String email;
     public Integer numerId;
+    public static String nazwaUczelni = "AGH po zmianie";
 
     public void przedstawSie(){
         System.out.println("Nazywam sie: " + imie + " " + nazwisko);
@@ -17,5 +18,10 @@ public class Student {
     }
     public void podajEmail() {
         System.out.println("Mój email to: " + email);
+    }
+
+    public static void infoUczelnia(){
+
+        System.out.println("Moja uczelnia to: " + nazwaUczelni);
     }
 }
