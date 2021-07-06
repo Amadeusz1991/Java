@@ -11,6 +11,8 @@ public class Footballer extends Person{
         System.out.println("I like healthy food");
     }
     public void walk() {
+        super.walk();/*Po nadpisaniu metody ndrzędnej, można i tak wywołać metodę nadrzędna aby została uzyta tutaj
+        W ten sposób jest wywołana najpier metoda nadrzędna za pomocą "super" a potem to co poniżej*/
         System.out.println("I like running!");
     }
 
