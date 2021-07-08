@@ -1,28 +1,23 @@
 package drivers;
 
 public class WebdriverTest {
-    public static void main(String[] args) {
-        WebDriver driver = getDriver("firefox");
+    public static void main(String[] args) throws NoValidBrowserName {
+        WebDriver driver = getDriver("firefoxa");
         driver.get();
         driver.findElementBy();
         driver.findElementBy();
         driver.findElementBy();
         driver.findElementBy();
         driver.findElementBy();
-
-        FireFoxDriver fireFoxDriver = new FireFoxDriver();
-        fireFoxDriver.get();
-        fireFoxDriver.findElementBy();
-
     }
 
-    private static WebDriver getDriver(String name) {
+    private static WebDriver getDriver(String name) throws NoValidBrowserName {
         if (name.equals("chrome")) {
             return new ChromeDriver();
         }else if(name.equals("firefox")) {
             return new FireFoxDriver();
         }
-        return null;
+        throw new NoValidBrowserName("No valid browser name");
 
     }
 
